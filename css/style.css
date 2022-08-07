@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/ROCKY.png);
+    height: 30rem;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 15rem;
+}
+
+.navbar__links {
+    list-style: none;
+    border: 12rem;
+    border-color: blue;
+}
+
+.navbar__links li {
+    display: inline-block;
+    margin: 0 5rem;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(115, 157, 255), rgb(124, 150, 236));
+}
+
+p {
+    margin: 4rem;
+    font-family: tahoma;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.video {
+    position: relative;
+    left: 35%;
+}
+
+.contexto__producto {
+    margin: 2rem;
+    max-width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+    background-color: rgba(255, 166, 0, 0.637);
+    align-items: center;
+}
+
+.imagen__producto {
+    width: 30rem;
+    align-items: center;
+}
+
+table{
+    border: 1px;
+    padding: 20px;
+}
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 2rem;
+}
+
+header img {
+    padding: 10px;
+}
+
+header img {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar__links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    col{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:1240px) {
+    .encabezado {
+        font-size: 50px;
+        text-align: center;
+        color: blue;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar__links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    col{
+        display: flex;
+        flex-direction: row;
+    }
+}
