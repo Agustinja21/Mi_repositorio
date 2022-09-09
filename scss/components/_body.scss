@@ -5,6 +5,25 @@
 }
 
 body {
-    background-color: map-get($colors, color-orange);
+    background-image: linear-gradient(to bottom, rgb(115, 157, 255), rgb(124, 150, 236));
 }
 
+p {
+    margin: 4rem;
+    font-family: tahoma;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.iframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }

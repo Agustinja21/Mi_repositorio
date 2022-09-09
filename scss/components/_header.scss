@@ -1,34 +1,35 @@
 header {
-    background-image: url(../IMG/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.jpg);
-    height: 40rem;
+    background-image: url(../../img/ROCKY.png);
+    height: 30rem;
     background-position: center center;
     background-size: cover;
 
 }
 
 .navbar {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    
-    .navbar__links {
-        list-style: none;
-        border: 6rem;
-        border-color: map-get($colors, color-blue);
-
-        li{
-            margin-left: 1rem;
-
-            a {
-                text-decoration: none;
-                color: map-get($colors, color-white);
-                font-size: 1.5rem;
-            }
-        }
-    }
 
     .navbar__logo {
         width: 15rem;
+    }    
+
+    .navbar__links {
+        list-style: none;
+        border: 12rem;
+        border-color: blue;
+    
+        li {
+            display: inline-block;
+            margin: 0 5rem;
+        }
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
     }
 }
